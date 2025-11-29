@@ -11,6 +11,18 @@
 ## Levantar el servidor
 ```bash
 sudo wg-quick up wg0
+```
+
+## Apagar el servidor
+```bash
+sudo wg-quick down wg0
+```
+
+## Ver estado del servidor
+```bash
+wg
+```
 
 **Solo cambia las claves cuando las generes.**
 **Esto ya está listo para correr en macOS, Linux, EC2 o cualquier máquina real.**
+
